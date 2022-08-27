@@ -2,7 +2,7 @@ import express from 'express'
 
 import entity from './routes/entity'
 
-const app = express();
+export const app = express();
 
 app.use(express.json());
 
